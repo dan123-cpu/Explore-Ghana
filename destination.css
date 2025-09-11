@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+
+nav {
+  background-color: #333333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 30px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+#destination {
+  background-color: #e2b007;
+  text-align: center;
+  padding: 80px;
+  background-image: url("./destination.jpg");
+  height: 500px;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: x-large;
+}
+#tour {
+  display: flex;
+  padding-top: 40px;
+}
+#tour h2 {
+  color: #e2b007;
+  /* margin-top: 20px; */
+}
+#tour p {
+  margin-top: 20px;
+}
+.places {
+  background-color: white;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 50px 20px;
+  /* padding-top: 50px; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+footer {
+  margin: 48px 0 0;
+  padding: 24px;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+}
+a:hover {
+  background-color: #e2b007;
+}

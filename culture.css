@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+body {
+  background-color: #fdf6f0;
+}
+
+nav {
+  background-color: #007b5e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+#intro {
+  background-color: #ffe3b3;
+  padding: 80px;
+  text-align: center;
+  font-size: large;
+  background-image: url("./culture.jpg");
+  height: 500px;
+}
+h1 {
+  color: #007b5e;
+  margin-bottom: 20px;
+}
+#culture div {
+  padding: 30px;
+  font-size: large;
+}
+h2 {
+  color: #007b5e;
+}
